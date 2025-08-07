@@ -1,0 +1,111 @@
+.bookings-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Poppins';
+}
+
+.bookings-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 35px;
+  color: #0a2a66;
+  letter-spacing: 1px;
+}
+
+.bookings-empty {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+  margin-top: 60px;
+}
+
+.bookings-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.bookings-card {
+  background: #FDFDFD;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(10,42,102,0.13);
+  padding: 25px 20px 20px 20px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.bookings-card:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
+}
+
+.bookings-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.bookings-card-content {
+  padding: 20px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.bookings-car-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0a2a66;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.bookings-details {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.bookings-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1976d2;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.delete-booking {
+  background: #ff4d4f;
+  color: #FDFDFD;
+  border: none;
+  padding: 10px 20px !important;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 600;
+  transition: background 0.2s;
+  width: 180px !important;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.delete-booking:hover {
+  background: #d9363e;
+}
+
+.bookings-payment-status {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(10,42,102);
+  text-align: center;
+}

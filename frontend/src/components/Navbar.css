@@ -1,0 +1,159 @@
+.nav {
+  width: 100%;
+  background: #FDFDFD;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  font-family: 'Poppins';
+  border-radius: 20px;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px 30px;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+
+
+.logo {
+  height: 55px;
+  width: 220px;
+  margin-right: 20px;
+  cursor: pointer;
+  background: transparent !important;
+  animation: navbar-logo-slide-in 0.7s ;
+}
+
+@keyframes navbar-logo-slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link {
+  color: rgb(10, 42, 102);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.08rem;
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: color 0.2s, background 0.2s;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+}
+
+
+
+.logout {
+  color: #FDFDFD;
+  background: #ff4d4f;
+  font-weight: 700;
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+  border: none;
+}
+
+.logout:hover{
+  background: #d9363e;
+}
+
+.link {
+  position: relative;
+}
+
+.link {
+  position: relative;
+  overflow: hidden;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  height: 2px;
+  width: calc(100% - 36px);
+  background-color: rgb(10, 42, 102);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.link:hover::after {
+  transform: scaleX(1);
+  
+}
+.link:hover {
+  background: #f0f4fa;
+  color: #0a2a66;
+  
+}
+.logo.animate {
+  animation: navbar-logo-slide-in 0.7s;
+}
+
+.nav-transparent {
+  background: none !important;
+  box-shadow: none !important;
+  backdrop-filter: blur(7px);
+}
+
+.nav-transparent .link{
+  color: #FDFDFD !important;
+}
+
+.nav-transparent .link:hover {
+  color: #F2B84D !important;
+  background: none !important;
+}
+
+.nav-blur {
+  backdrop-filter: blur(8px);
+  background: none !important;
+  transition: backdrop-filter 0.3s, background 0.3s;
+}
+
+.message-box {
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f0f4fa;
+  color: rgb(10, 42, 102);
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  z-index: 9999;
+  font-size: 1.1rem;
+  font-weight: 500;
+  animation: fadeInOut 3s;
+}
+

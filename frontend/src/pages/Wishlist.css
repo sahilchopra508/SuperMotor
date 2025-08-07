@@ -1,0 +1,124 @@
+
+.wishlist-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Poppins';
+}
+
+.wishlist-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 35px;
+  color: #0a2a66;
+  letter-spacing: 1px;
+}
+
+.wishlist-list {
+  width: 100%;
+}
+
+.wishlist-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.wishlist-card {
+  background: #fff !important;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(10,42,102,0.13);
+  padding: 25px 20px 20px 20px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wishlist-card:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
+}
+
+.wishlist-img {
+  width: 310px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.wishlist-card-content {
+  padding: 20px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-decoration: none!important;
+}
+
+.wishlist-car-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0a2a66;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+.wishlist-car-title a {
+  text-decoration: none !important;
+  color: rgba(10,42,102);
+}
+
+.wishlist-details {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.wishlist-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1976d2;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none!important;
+}
+
+.wishlist-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.wishlist-action button {
+  background: #0a2a66 !important;
+  color: #FDFDFD !important;
+  border: 2px solid #0a2a66;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.wishlist-action button:hover {
+  background: #f0f4fa !important;
+  color: #0a2a66 !important;
+}
+
+.wishlist-empty {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+  margin-top: 60px;
+}
+
+
+
+
+

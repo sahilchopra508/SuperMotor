@@ -1,0 +1,18 @@
+.footer {
+    background: rgb(10, 42, 102);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #FDFDFD !important;
+    border-radius: 20px;
+}
+
+.footer-content {
+  color: #FDFDFD !important;
+}
+
+.footer-transparent {
+  background: none;
+  backdrop-filter: blur(10px);
+}
